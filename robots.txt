@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /solar-design-results.html/
+Noindex: /solar-design-results.html/
+Disallow: /solar-design-results-ar.html/
+Noindex: /solar-design-results-ar.html/
+
+Sitemap: http://cpowered-frontend.github.io/sitemap.xml

@@ -1,0 +1,97 @@
+@media (min-width: 992px){
+	.container {
+		width: 80%;
+		padding:0;
+	}
+	.home-pic {
+		height: 567px;
+	}
+	.title-h1 h1 {
+		font-size: 38px !important;
+		padding: 25px;
+	}
+	.bullets-container h1 {
+		font-size: 19px
+	}
+	.bullets-container p {
+		text-align: center;
+		font-size: 16px;
+		line-height: 1.5;
+		padding-bottom: 25px;
+	}
+	.video {
+		width: 400px;
+		height: 250px;
+	}
+	.first h1 {
+		line-height: 1;
+		padding-bottom: 2%;
+		width: 50%;
+	}
+	.social {
+		margin: 0 auto;
+		display: block;
+		width: fit-content;
+		width: -moz-fit-content;
+		height: inherit;
+	}
+	.home .right .row {
+		width: 60%;
+	}
+	.col-blog1 {
+		width: 11.666667%;
+	}
+	.col-blog2 {
+		width: 71.666667%;
+	}
+	.cusdiv {
+		width: 68%;
+	}
+	.bg3 {
+		padding: 8% 15% !important;
+	}
+	.fa {
+		padding: 9px;
+		border-radius: 90px;
+		width: 31px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 2px;
+	}
+	.navbar-brand img {
+		display: block;
+	}
+	.navbar-nav li {
+		padding: 0px 14px
+	}
+	.navbar-nav li a {
+		font-size: 14px;
+	}
+	.btn-default {
+		font-size: 17px;
+	}
+	.navbar-default {
+		padding: 0 5% 0 10%;
+	}
+	.navbar-header {
+		width: 25%;
+	}
+
+
+
+
+	/*ARABIC*/
+
+
+
+
+	.html-ar .navbar-nav li a {
+		font-size: 1.05vw;
+	}
+	.html-ar .navbar-default {
+		padding: 0 4% 0 5%;
+	}
+	.html-ar .navbar-nav li {
+		padding: 0px 14px;
+	}
+}
