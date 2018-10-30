@@ -14,14 +14,14 @@ body{
 	height:90px
 }
 .navbar-toggle{
-	position:absolute;
-	padding:9px 10px;
-	background-color:transparent;
-	background-image:none;
-	border-radius:4px;
-	margin:20px;
-	right:10%;
-	border:1px solid grey
+	position: absolute;
+	padding: 11px 10px;
+	background-color: transparent;
+	background-image: none;
+	border-radius: 4px;
+	margin: 18px -18px;
+	right: 10%;
+	border: 1px solid grey;
 }
 .title-h1 h1{
 	font-size:18px;
@@ -672,8 +672,10 @@ input:checked + .slider:before{
 	background-color:transparent
 }
 .navbar-default .navbar-toggle .icon-bar{
-	background-color:white;
-	height:2.2px
+	background-color: white;
+	height: 3.2px;
+	margin-bottom: 5px;
+	width: 25px;
 }
 .custom-navbar-collapsed{
 	background:#393f44;
@@ -834,9 +836,6 @@ footer h1{
 	width:90%
 }
 @media (max-width:768px){
-	.div-ic{
-		padding:0 16%
-	}
 	.sec-title{
 		text-align:center
 	}
@@ -1043,6 +1042,72 @@ label{
 	src:url(../fonts/JannaLT-Regular.ttf) format('truetype')
 }
 @media (max-width:767px){
+	.html-ar .home-pic{
+		background-size: 156% 65.5%;
+	}
+	.html-ar .navbar-nav li a{
+		letter-spacing: normal;	
+	}
+	.div21 a[href="solar-for-your-business-ar.html"]{
+		margin: 15% 1% 0% 0% !important;
+		padding: 4%;
+		width: 78vw;
+		font-size: 15px;
+		letter-spacing: 0.07em;
+		text-shadow: 0px 0px, 0.5px 0px, 0px 0px;
+	}
+	.container.title-h1 {
+		margin: 0;
+		width: 100%;
+	}
+	.title-h1 h1 {
+		font-size: 22px;
+	}
+	.in-news h1{
+		font-size: 20px;
+		line-height: 1;
+	}
+	.first h1{
+		font-size: 21px
+	}
+	.second h5 {
+		font-size: 15px;
+		font-weight: bold;
+	}
+	.home-pic{
+		background-position: top;
+		background-size: 156% 67.5%;
+		padding: 3.3% 9% 0% 9%;
+	}
+	.home-pic h1:nth-of-type(1){
+		font-size: 38px;
+	}
+	.home-pic h2{
+		font-size: 14px;
+		line-height: 1.5;
+		font-weight: 700;
+		word-spacing: .3em;
+	}
+	.home-pic h6{
+		font-size: 25px
+	}
+	.div21 a[href="solar-for-your-home.html"],
+	.div21 a[href="solar-for-your-home-ar.html"]{
+		margin: 5.5% 1% 1% 0% !important;
+		padding: 4%;
+		width: 78vw;
+		font-size: 15px;
+		letter-spacing: 0.07em;
+		text-shadow: 0px 0px, 0.5px 0px, 0px 0px;
+	}
+	.div21 a[href="solar-for-your-business.html"]{
+		margin: 0% 1% 0% 0% !important;
+		padding: 4%;
+		width: 78vw;
+		font-size: 15px;
+		letter-spacing: 0.07em;
+		text-shadow: 0px 0px, 0.5px 0px, 0px 0px;
+	}
 	.div21{
 		width:fit-content;
 		margin:0 auto;
@@ -1083,7 +1148,7 @@ label{
 		position:relative;
 		margin:0 auto;
 		float:unset;
-		padding: 3vh 0;
+		padding: 5vh 0;
 	}
 	.navbar-default .navbar-collapse,.navbar-default .navbar-form{
 		border:0
@@ -1101,6 +1166,7 @@ label{
 		line-height: 35px;
 		font-family: 'open sans',sans-serif;
 		letter-spacing: 0.15em;
+		font-size: 16px;
 	}
 	.lang-hide a{
 		letter-spacing: normal !important
@@ -1358,11 +1424,11 @@ span.lang-hide{
 	margin:-1.5px 0 0 -10px;
 	left:50%;
 	top:50%;
-	-webkit-transform:rotate(135deg);
-	-moz-transform:translate(0,0) rotate(135deg);
-	-ms-transform:translate(0,0) rotate(135deg);
-	-o-transform:translate(0,0) rotate(135deg);
-	transform:translate(10px,-6.3px) rotate(135deg)
+	-webkit-transform:translate(10px,-10.3px) rotate(135deg);
+	-moz-transform:translate(10px,-10.3px) rotate(135deg);
+	-ms-transform:translate(10px,-10.3px) rotate(135deg);
+	-o-transform:translate(10px,-10.3px) rotate(135deg);
+	transform:translate(10px,-10.3px) rotate(135deg)
 }
 .openclose{
 	display:none
