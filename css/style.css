@@ -1364,7 +1364,8 @@ span.lang-hide{
 	}
 
 }
-.html-ar *:not(.fa){
+.html-ar *:not(.fa);
+.html-ar *:not(.search-symbol){
 	font-family:'Janna',sans-serif!important
 }
 .html-ar input:not(.exception-ar),.html-ar textarea:not(.exception-ar),.html-ar form:not(.exception-ar),.html-ar select:not(.exception-ar),.html-ar .sec-title:not(.exception-ar),.html-ar .cd-faq-content p{
