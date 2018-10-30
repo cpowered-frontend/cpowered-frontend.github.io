@@ -1042,6 +1042,11 @@ label{
 	src:url(../fonts/JannaLT-Regular.ttf) format('truetype')
 }
 @media (max-width:767px){
+	.ul-lang{
+		height: 267px;
+		margin: 0;
+		width: 100%;
+	}
 	.html-ar .home-pic{
 		background-size: 156% 65.5%;
 	}
@@ -1194,11 +1199,7 @@ label{
 	}
 
 }
-.ul-lang{
-	height: 267px;
-	margin: 0;
-	width: 100%;
-}
+
 span.lang-show,
 span.lang-hide{
 	width: inherit;
